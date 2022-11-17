@@ -1,0 +1,55 @@
+button.color {
+    position: absolute;
+    top: 135px;
+    left: 780px;
+}
+
+button.boundaries {
+    position: absolute;
+    top: 135px;
+    left: 540px;
+}
+
+text.legend {
+    font-size: 10px;
+}
+
+g.state {
+    transform:scaleY(-1);
+}
+
+g.counties {
+    transform:scaleY(-1);
+}
+
+.tooltip rect {
+    fill: lightgray;
+    stroke: #000;
+    stroke-width: 1;
+}
+
+.tooltip text.label {
+    text-anchor: middle;
+    font-size: 14px;
+    font-weight: bold;
+    stroke: #000;
+    stroke-width: 0.2;
+}
+
+.tooltip text.key {
+    text-anchor: start;
+    font-size: 12px;
+    fill: black;
+}
+
+.tooltip text.div {
+    text-anchor: middle;
+    font-size: 12px;
+    fill: black;
+}
+
+.tooltip text.val {
+    text-anchor: end;
+    font-size: 12px;
+    fill: black;
+}
